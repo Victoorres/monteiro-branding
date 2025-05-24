@@ -182,7 +182,7 @@ export default function PortfolioSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <button className="bg-[#464545] text-[#f5f3e7] font-black px-10 py-5 text-xl rounded-full border-4 border-[#464545] shadow-[8px_8px_0px_0px_#464545] hover:shadow-[4px_4px_0px_0px_#464545] hover:translate-x-1 hover:translate-y-1 transition-all duration-150">
+            <button className="bg-[#464545] text-[#f5f3e7] font-black px-10 py-5 text-xl rounded-full border-4 border-[#f5f3e7] shadow-[8px_8px_0px_0px_#464545] hover:shadow-[4px_4px_0px_0px_#464545] hover:translate-x-1 hover:translate-y-1 transition-all duration-150">
               Ver Todos os Projetos
             </button>
           </motion.div>
