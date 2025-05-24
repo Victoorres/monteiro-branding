@@ -56,7 +56,7 @@ export default function ServicesSection() {
               style={{ backgroundColor: service.color }}
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
+              transition={{ duration: 0.2, delay: 0 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
             >

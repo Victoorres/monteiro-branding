@@ -20,7 +20,7 @@ export default function HeroSection() {
       <motion.div style={{ y, opacity }} className="relative z-10">
         {/* Floating Elements - Melhorados */}
         <motion.div
-          className="absolute -top-14 sm:-top-8 md:-top-16 sm:-left-4 md:-left-8 bg-[#e2bfff] text-[#464545] px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-full font-black text-xs sm:text-sm md:text-base border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545]"
+          className="absolute -top-14 sm:-top-8 md:-top-16 sm:-left-4 md:-left-8 bg-[#e2bfff] text-[#464545] px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-full font-black text-xs sm:text-sm md:text-base border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545] z-[-1] opacity-40"
           initial={{ scale: 0, rotate: -45 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ delay: 1, duration: 0.6, type: "spring" }}
@@ -33,7 +33,7 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="absolute -top-2 sm:-top-4 md:-top-16 right-6 sm:right-8 md:right-2 bg-[#e7eaa1] p-2 sm:p-3 md:p-4 rounded-2xl border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545]"
+          className="absolute -top-2 sm:-top-4 md:-top-16 right-6 sm:right-8 md:right-2 bg-[#e7eaa1] p-2 sm:p-3 md:p-4 rounded-2xl border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545] z-[-1] opacity-40"
           initial={{ scale: 0, y: -50 }}
           animate={{ scale: 1, y: 0 }}
           transition={{ delay: 1.2, duration: 0.6, type: "spring" }}
@@ -43,7 +43,7 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="absolute top-[45vh] sm:top-16 md:top-28 right-24 sm:-right-6 md:-right-12 bg-[#e7eaa1] text-[#464545] px-3 sm:px-4 md:px-5 py-2 md:py-2 rounded-full text-xs sm:text-sm md:text-base font-black border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545]"
+          className="absolute top-[45vh] sm:top-16 md:top-28 right-24 sm:-right-6 md:-right-12 bg-[#e7eaa1] text-[#464545] px-3 sm:px-4 md:px-5 py-2 md:py-2 rounded-full text-xs sm:text-sm md:text-base font-black border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545] z-[-1] opacity-40"
           initial={{ scale: 0, x: 50 }}
           animate={{ scale: 1, x: 0 }}
           transition={{ delay: 1.4, duration: 0.6, type: "spring" }}
@@ -56,7 +56,7 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="absolute -bottom-24 left-12 sm:bottom-8 md:bottom-16 sm:-left-8 md:-left-16 bg-[#e2bfff] p-2 sm:p-3 md:p-4 rounded-2xl border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545]"
+          className="absolute -bottom-24 left-12 sm:bottom-8 md:bottom-16 sm:-left-8 md:-left-16 bg-[#e2bfff] p-2 sm:p-3 md:p-4 rounded-2xl border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545] z-[-1] opacity-40"
           initial={{ scale: 0, rotate: 45 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ delay: 1.6, duration: 0.6, type: "spring" }}
@@ -66,7 +66,7 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="absolute -bottom-16 sm:bottom-4 md:bottom-8 right-2 sm:right-4 md:right-8 bg-[#e2bfff] text-[#464545] px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-full font-black text-xs sm:text-sm md:text-base border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545]"
+          className="absolute -bottom-16 sm:bottom-4 md:bottom-8 right-2 sm:right-4 md:right-8 bg-[#e2bfff] text-[#464545] px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-full font-black text-xs sm:text-sm md:text-base border-2 md:border-3 border-[#464545] shadow-[3px_3px_0px_0px_#464545] md:shadow-[4px_4px_0px_0px_#464545] z-[-1] opacity-40"
           initial={{ scale: 0, y: 50 }}
           animate={{ scale: 1, y: 0 }}
           transition={{ delay: 1.8, duration: 0.6, type: "spring" }}
