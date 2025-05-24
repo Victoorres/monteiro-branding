@@ -81,7 +81,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div className="bg-[#f5f3e7] p-8 rounded-3xl border-4 border-[#464545] shadow-[8px_8px_0px_0px_#464545]">
+            <div className="bg-[#f5f3e7] p-8 rounded-3xl border-4 border-[#464545] shadow-[8px_8px_0px_0px_#f5f3e7]">
               <h4 className="text-2xl md:text-3xl font-black text-[#464545] mb-6">Hanna Monteiro</h4>
 
               <p className="text-lg text-[#464545] leading-relaxed mb-6">
