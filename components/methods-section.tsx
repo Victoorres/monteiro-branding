@@ -96,7 +96,7 @@ export default function MethodsSection() {
                 </motion.div>
 
                 {/* Content with Fixed Height */}
-                <div className="flex flex-col justify-between min-h-[250px]">
+                <div className="flex flex-col justify-between min-h-[20px] md:min-h-[211px]">
                   <div>
                     <h3 className="text-xl md:text-2xl font-black text-[#464545] mb-2">{step.title}</h3>
                     <p className="text-sm font-bold text-[#464545]/70 mb-3">{step.subtitle}</p>
