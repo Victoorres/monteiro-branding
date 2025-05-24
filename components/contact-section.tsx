@@ -36,7 +36,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-black text-[#464545]">Email</h3>
-                <p className="text-[#464545]/80">contato@monteirobranding.com</p>
+                <p className="text-[#464545]/80">hello@monteirobranding.me</p>
               </div>
             </div>
 

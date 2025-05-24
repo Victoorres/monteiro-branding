@@ -92,6 +92,11 @@ body {
   font-feature-settings: "rlig" 1, "calt" 1;
 }
 
+/* Scroll offset for fixed navbar */
+section[id] {
+  scroll-margin-top: 120px;
+}
+
 /* Custom Cursor - Only visible on desktop */
 .custom-cursor {
   position: fixed;

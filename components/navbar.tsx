@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="hidden lg:grid lg:grid-cols-3 lg:items-center">
           {/* Left Navigation */}
           <nav className="flex items-center space-x-6 justify-start">
-            {["Home", "Serviços", "Portfólio", "Sobre", "Contato"].map((item, index) => (
+            {["Home", "Serviços", "Portfólio", "Métodos", "Sobre", "Contato"].map((item, index) => (
               <motion.a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -97,7 +97,7 @@ export default function Navbar() {
             transition={{ duration: 0.2 }}
           >
             <nav className="flex flex-col space-y-4">
-              {["Home", "Serviços", "Portfólio", "Sobre", "Contato"].map((item) => (
+              {["Home", "Serviços", "Portfólio","Métodos", "Sobre", "Contato"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}

@@ -8,6 +8,9 @@ import PortfolioSection from '@/components/portfolio-section';
 import AboutSection from '@/components/about-section';
 import ContactSection from '@/components/contact-section';
 import Footer from '@/components/footer';
+import MethodsSection from '@/components/methods-section';
+import TestimonialsSection from '@/components/testemonials-section';
+import CTASection from '@/components/cta-section';
 
 export default function HomePage() {
   return (
@@ -17,7 +20,10 @@ export default function HomePage() {
       <ScrollingText />
       <ServicesSection />
       <PortfolioSection />
+      <MethodsSection />
       <AboutSection />
+      <TestimonialsSection />
+      <CTASection/>
       <ContactSection />
       <Footer />
     </div>
