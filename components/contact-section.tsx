@@ -1,7 +1,7 @@
-"use client"
+'use client';
 
-import { motion } from "framer-motion"
-import { Mail, Phone, MapPin } from "lucide-react"
+import { motion } from 'framer-motion';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function ContactSection() {
   return (
@@ -15,10 +15,10 @@ export default function ContactSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#464545] mb-6">
-            Vamos <span className="text-[#e2bfff]">conversar?</span>
+            Tem uma ideia? <br /> Então vamos <span className="text-[#e2bfff]">conversar!</span>
           </h2>
           <p className="text-lg md:text-xl text-[#464545]/80 max-w-2xl mx-auto">
-            Pronto para transformar sua marca? Entre em contato conosco!
+            Nos conte o que tem em mente e vamos fazer acontecer.
           </p>
         </motion.div>
 
@@ -93,5 +93,5 @@ export default function ContactSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

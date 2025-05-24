@@ -34,10 +34,10 @@ export default function ServicesSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-[#f5f3e7] mb-8 leading-tight">
-            Serviços que <span className="text-[#e2bfff]">oferecemos</span>
+            Fornecemos o que é necessário para a sua marca se <span className="text-[#e2bfff]">destacar</span>
           </h2>
           <p className="text-lg md:text-xl text-[#f5f3e7]/80 max-w-2xl mx-auto">
-            Use nossos serviços especializados para impactar seu mercado.
+            Dê o próximo passo com serviços que geram impacto real
           </p>
         </motion.div>
 

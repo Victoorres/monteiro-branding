@@ -15,7 +15,7 @@ export default function HeroSection() {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   return (
-    <section id="home" ref={containerRef}   className="relative min-h-screen flex items-center justify-center 
+    <section id="home" ref={containerRef} className="relative min-h-screen flex items-center justify-center 
      -mt-[6vh] sm:mt-[8vh] md:mt-[12vh] lg:mt-[15vh] px-4">
       <motion.div style={{ y, opacity }} className="relative z-10">
         {/* Floating Elements - Melhorados */}
